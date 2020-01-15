@@ -60,4 +60,3 @@ crcf <destination/component-name> --notest -j
     -h, --help        output usage information
     -sb, --stories    Add Storie file to component
     -ns, --nosemi     No semicolons
-
