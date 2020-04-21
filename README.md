@@ -20,12 +20,12 @@ if the above command fails, then ```npm cache clean --force``` and run ```npx cr
 
 3. webpack and webpack-dev-server installation
 ```
-npm install webpack webpack-cli webpack-dev-server --save-dev
+npm install webpack webpack-cli webpack-dev-server webpack-merge --save-dev
 ```
 
 4. babel installations
 ```
-npm install babel-loader @babel/core @babel/preset-env @babel/preset-react --save-dev
+npm install babel-loader @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties --save-dev
 ```
 
 5. There is no need to install react and react-dom as runing ```npx create-react-app <app-name>``` already installs react, react-dom.
